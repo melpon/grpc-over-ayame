@@ -6,4 +6,4 @@ WebRTC Data Channel を使って gRPC で通信します。
 
 ## 実装
 
-gRPC Core の transport を弄って、HTTP/2 の代わりに Data Channel を使うようにしています。
+[gRPC Core の transport](https://github.com/grpc/grpc/tree/master/src/core/ext/transport) を弄って、HTTP/2 の代わりに Data Channel を使うようにしています。
